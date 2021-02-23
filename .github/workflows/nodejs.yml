@@ -17,8 +17,7 @@ jobs:
           node-version: '13.x'
       - name: npm install, build
         run: |
-          make setup
-          make build
+          make install
       - name: Run linter
         run: make lint
       - name: Run tests
